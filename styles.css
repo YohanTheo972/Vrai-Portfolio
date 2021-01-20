@@ -20,8 +20,8 @@ html {
 }
 
 p {
-        margin: 30px;
-        padding: -30px;
+        margin: 50px;
+        padding: -70px;
         font-family: system-ui;
 }
 
@@ -47,11 +47,12 @@ hgroup {
 em {
     font-family: system-ui;
     text-align: left;
-    margin: 50px;
-    padding: 18px;
+    margin: 20px;
+    padding: 10px;
+    color: teal;
 }
 
-h2 {
+h3 {
     font-family: system-ui;
     text-align: left;
     margin: 50px;
@@ -59,9 +60,8 @@ h2 {
 }
 
 h4 {
-    margin: 20px;
+    margin: 10px;
     padding: 40px;
-    height: 10%;
     font-family: system-ui;
 }
 
@@ -69,7 +69,7 @@ body {
     border-radius: 10px;
 }
 aside {
-    width: 40%;
+    width: 55%;
     padding-left: .5rem;
     margin-left: .5rem;
     float: right;
@@ -84,5 +84,27 @@ aside > p {
 
 p {
     font-family: 'Fira Sans', sans-serif;
-    padding: -30px;
+    padding: -70px;
+}
+
+
+hr {
+    border: none;
+    border-top: 10px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    margin: 17px;
+    padding: 17px;
+}
+
+li {
+    font-size: 110%;
+    font-family: system-ui;
+}
+
+.box {
+    text-align: left;
+    size: 2%;
 }
