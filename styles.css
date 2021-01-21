@@ -108,3 +108,16 @@ li {
     text-align: left;
     size: 2%;
 }
+
+i {
+    margin: 50px;
+    padding: 1px;
+}
+
+.para {
+    margin: 50px;
+    padding: 17px;
+    font-family: system-ui;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
