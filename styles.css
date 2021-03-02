@@ -46,7 +46,7 @@ hgroup {
 
 em {
     font-family: system-ui;
-    text-align: left;
+    text-align: right;
     margin: 20px;
     padding: 10px;
     color: teal;
@@ -110,16 +110,15 @@ li {
     size: 2%;
 }
 
-i {
-    margin: 50px;
-    padding: 1px;
-}
+
 
 .para {
 
     font-family: system-ui;
     font-weight: bolder;
     font-size: 1.2em;
+    margin: 17px;
+    padding:17px;
 }
 
 .topnav-centered a {
@@ -129,4 +128,29 @@ i {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.date {
+    margin: 50%;
+    padding: 17%;
+}
+
+
+
+.em {
+    width: 55%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    font-style: italic;
+    text-align: right;
+}
+
+.flotte {
+    float:left;
+    text-align: right;
+    }
+
+.hola {
+    font-family: system-ui;
+    background-color: white;
 }
