@@ -262,15 +262,16 @@ Print("Aujourd'hui nous sommes le $date et il est $heure");
 <div class="hola">
 <marquee><p>Ou visiter le site de ma mini-entreprise :&nbsp; &nbsp;<a href="https://web-up-design.jimdosite.com/">Web UP Design</a><br><br></marquee>
 </div>
-    <form method="post">
+
+<form method="post">
         <label>Nom</label>
         <input type="text" name="nom" required>
         <label>Email</label>
         <input type="email" name="email" required>
-        <br><br><label>Message</label>
+        <label>Message</label>
         <textarea name="message" required></textarea>
         <input type="submit">
-
+    </form>
     <?php
     if(isset($_POST['message'])){
         $entete  = 'MIME-Version: 1.0' . "\r\n";
@@ -284,10 +285,11 @@ Print("Aujourd'hui nous sommes le $date et il est $heure");
 
         $retour = mail('yohantheocomptepro@outlook.fr', 'Envoi depuis page Contact', $message, $entete);
         if($retour) {
-            echo '<p>Votre message a bien été transmis.</p>';
+            echo '<p>Votre message a bien été envoyé.</p>';
         }
     }
     ?>
+
   </form>
   </form>
 </div>
